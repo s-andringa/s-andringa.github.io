@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sjoerd.io/sitemap.xml

@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(150deg, #444, #222);
+}
+body {
+   margin: 5% 0 0 0;
+   font-family: "Inconsolata", monospace;
+   font-size: 18px;
+   line-height: 1.4em;
+   letter-spacing: -0.01em;
+   color: #BFBFBF;
+}
+main {
+  background-color: #2B2B2B;
+  box-shadow: 0 0 50px #333;
+  padding: 20px 40px;
+}
+h1 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #FBD52F;
+  display: flex;
+}
+#subtitle {
+  font-size: 0.9em;
+  color: #0090CD;
+}
+img#headshot {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+p {
+  margin: .8em 0 .8em 0;
+}
+a {
+  color: #0090CD;
+}
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+footer {
+  margin: 20px 0;
+  text-align: center;
+}
+#linkicons {
+  margin-bottom: 5px;
+}
+#linkicons svg {
+  fill: #BFBFBF;
+  height: 1.8em;
+  margin: 0 .5em;
+}
+#linkicons a {
+  display: inline-block;
+}
+#details {
+  font-size: 0.9em;
+}
+@media only screen and (min-width: 768px) {
+  main {
+    padding: 30px 25% 30px 25%;
+  }
+}
