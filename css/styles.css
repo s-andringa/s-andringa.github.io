@@ -15,11 +15,16 @@ main {
   box-shadow: 0 0 50px #333;
   padding: 20px 40px;
 }
-h1 {
-  font-size: 22px;
+h1, h2 {
   font-weight: normal;
   color: #FBD52F;
+}
+h1 {
+  font-size: 22px;
   display: flex;
+}
+h2 {
+  font-size: 20px;
 }
 #subtitle {
   font-size: 0.9em;
@@ -54,7 +59,7 @@ footer {
 #linkicons a {
   display: inline-block;
 }
-#details {
+small, #details {
   font-size: 0.9em;
 }
 @media only screen and (min-width: 768px) {
